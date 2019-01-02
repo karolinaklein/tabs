@@ -1,0 +1,46 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+
+h1    {font-size: 30px; text-align:center; background: #e1e1e1; padding:40px 0; margin:0;}
+
+/* ===========================
+   ===== Tabs  ===== 
+   =========================== */	
+   
+
+.centering{
+	max-width:1200px;
+	margin:50px auto;
+	text-align: left
+}
+
+
+.tabs-nav{
+	background: #dedede;
+	list-style: none;
+	padding:10px 10px 0 10px;
+}
+
+.tabs-nav-item{
+	display: inline-block;
+	background: #be0071;
+	padding:10px 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.tabs-nav-item:hover{
+	opacity: 0.5;
+}
+
+.tabs-nav-item-active{
+	background: #fff;
+	color: #0b040c;
+}
+
+.tabs-nav-item-active:hover{
+	opacity: 1;
+	cursor: default;
+}
+
+.tabs-item{
+	padding:20px;
+}
